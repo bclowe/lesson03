@@ -1,16 +1,37 @@
 
-body
-    {background-color:F7C1BB;}
+body {
+        background-color:F7C1BB;
+        margin:0;
+        padding:0;
+        font-family: 'Montserrat', sans-serif;
+        text-align:center;
+        font-size:15px;
+        line-height: 1.5;
+}    
 
 img {
-    width:300px;
+    height:300px;
+    
 }
 
 
 h1 {
     color:darkslategray;
+    font-size:75px;
 }
 
 h2 {
     color:84B082;
+    font-size:45px;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    text-shadow: 2px 2px #7c7b7b;
+    margin: 0;
+}
+
+a {
+    text-decoration: underline *c7b7b solid;
 }
